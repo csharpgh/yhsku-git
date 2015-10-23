@@ -1,0 +1,536 @@
+body { 
+        font-family:Lucida Grande; margin:0; padding:0; border:0;  font-size:12pt;
+        background-color:#87CEFA;
+        font-size:12pt;
+        /* color:#9c191f; */
+}
+
+/* table reset here */
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size:10pt;
+}
+
+.nav_button {
+  width:140px; height:25px; color:white; background:#650005; font: bold 15px arial,sans-serif;
+}
+#top_row_button1 {
+  position:absolute; top:60px; left:10px;
+}
+#top_row_button2 {
+  position:absolute; top:60px; left:150px;
+}
+#top_row_button3 {
+  position:absolute; top:60px; left:290px;
+}
+#new_button {
+  position:absolute; top:60px; left:10px;
+}
+#update_button {
+  position:absolute; top:60px; left:150px;
+}
+
+#export_button {
+  position:absolute; top:60px; left:10px;
+}
+/* position of navigation buttons in navigation.html */
+#nav_1 {
+  position:absolute; top:90px; left:10px;
+}
+#nav_2 {
+  position:absolute; top:90px; left:150px;
+}
+
+#nav_3 {
+  position:absolute; top:90px; left:290px;
+}
+#nav_4 {
+  position:absolute; top:90px; left:430px;
+}
+#nav_5 {
+  position:absolute; top:90px; left:570px;
+}
+#nav_6 {
+  position:absolute; top:90px; left:710px;
+}
+#nav_7 {
+  position:absolute; top:90px; left:850px;
+}
+
+#action1_button {
+  position:absolute; top:120px; left:10px;
+}
+#action2_button {
+  position:absolute; top:120px; left:150px;
+}
+
+
+
+.submit_button   { 
+	width:125px; height:25px; color:white; background:black; font: bold 15px arial,sans-serif;
+}
+
+#logo {
+  position:absolute; top:0px; left:10px;
+   
+}
+
+#title {
+  position:absolute; top:0px; left:120px;
+  font-weight:bold;
+}
+#notice {
+  position:absolute; top:35px; left:120px;
+  color:yellow; font-weight:bold; background-color:red;
+  font-size:12pt;
+}
+
+#submit {
+  position:absolute; top:130px; left:10px;
+}
+#cancel {
+  position:absolute; top:160px; left:10px;
+}
+
+
+#delete {
+  position:absolute; top:190px; left:10px;
+}
+/* login.php */
+#user_label {
+  position:absolute; top:80px; left:110px;
+
+}
+#user_input {
+  position:absolute; top:80px; left:250px;
+}
+#pass_label {
+  position:absolute; top:110px; left:110px;
+  
+}
+#pass_input {
+  position:absolute; top:110px; left:250px;
+}
+#login_submit1 {
+  position:absolute; top:140px; left:250px;
+}
+#login_submit2 {
+  position:absolute; top:140px; left:380px;
+}
+
+/* inventory.php */
+#inventory_title {
+  position:absolute; top:120px; left:10px;
+  font-size:10pt; font-weight:bold;
+}
+#inventory_list {
+  position:absolute; top:150px; left:10px;
+  width:900px; height:800px; border: 1px solid black;
+  overflow:auto;
+  background-color:white;
+}
+
+/* edit_item.php */
+#item_class_label {
+  position:absolute; top:130px; left:200px;
+}
+#item_class_input {
+  position:absolute; top:130px; left:300px;
+}
+#item_vendor_label {
+  position:absolute; top:160px; left:200px;
+}
+#item_vendor_input {
+  position:absolute; top:160px; left:300px;
+}
+#item_item_no_label {
+  position:absolute; top:190px; left:200px;
+}
+#item_item_no_input {
+  position:absolute; top:190px; left:300px;
+}
+
+#item_description_label {
+  position:absolute; top:220px; left:200px;
+}
+#item_description_value {
+  position:absolute; top:220px; left:300px;
+  width:500px; height:20pt; background-color:white;
+  font-size:12pt;
+
+
+
+}
+
+/* classes.php */
+#classes_title {
+  position:absolute; top:120px; left:10px;
+  font-size:10pt; font-weight:bold;
+}
+#classes_list {
+  position:absolute; top:150px; left:10px;
+  width:370px; height:800px; border: 1px solid black;
+  overflow:auto;
+  background-color:white;
+}
+/* new_class.php */
+
+#class_class_label {
+  position:absolute; top:130px; left:200px;
+}
+#class_class_input {
+  position:absolute; top:130px; left:300px;
+}
+#class_description_label {
+  position:absolute; top:160px; left:200px;
+}
+#class_description_input {
+  position:absolute; top:160px; left:300px;
+}
+
+/* vendors.php */
+#vendors_title {
+  position:absolute; top:120px; left:10px;
+  font-size:10pt; font-weight:bold;
+}
+#vendors_list {
+  position:absolute; top:150px; left:10px;
+  width:700px; height:800px; border: 1px solid black;
+  overflow:auto;
+  background-color:white;
+}
+
+/* new_vendor.php */
+
+#company_label {
+  position:absolute; top:160px; left:200px;
+}
+#company_input {
+  position:absolute; top:160px; left:300px;
+}
+#vendor_lb {
+  position:absolute; top:140px; left:800px;
+  font-size:9pt;
+}
+
+#vendor_label {
+   position:absolute; top:160px; left:700px;
+}
+
+#vendor_input {
+   position:absolute; top:160px; left:800px;
+}
+
+#name_label {
+  position:absolute; top:190px; left:200px;
+}
+#name_input {
+  position:absolute; top:190px; left:300px;
+}
+
+
+
+
+#address_label {
+  position:absolute; top:220px; left:200px;
+}
+
+#address_input {
+  position:absolute; top:220px; left:300px;
+}
+#autofill_label {
+  position:absolute; top:230px; left:50px;
+  font-size:9pt;
+}
+#autofill_select {
+  position:absolute; top:250px; left:70px;
+}
+#city_label {
+  position:absolute; top:250px; left:200px;
+}
+#city_input {
+  position:absolute; top:250px; left:300px;
+}
+
+#state_label {
+  position:absolute; top:280px; left:200px;
+}
+#state_input {
+  position:absolute; top:280px; left:300px;
+}
+
+#zip_label {
+  position:absolute; top:310px; left:200px;
+}
+#zip_input {
+  position:absolute; top:310px; left:300px;
+}
+
+#phone_label {
+  position:absolute; top:340px; left:200px;
+}
+#phone_input {
+  position:absolute; top:340px; left:300px;
+}
+
+#email_label {
+  position:absolute; top:370px; left:200px;
+}
+#email_input {
+  position:absolute; top:370px; left:300px;
+}
+
+#commission_label {
+  position:absolute; top:400px; left:200px;
+}
+#commission_input {
+  position:absolute; top:400px; left:300px;
+}
+
+#notes_label {
+  position:absolute; top:430px; left:200px;
+}
+#notes_input {
+ position:absolute; top:430px; left:300px;
+}
+
+/* confirm_class_delete.php */
+#confirm_class_delete_msg {
+  position:absolute; top:130px; left:200px;
+  color: red;
+}
+#confirm_class_delete_inventory {
+  position:absolute; top:160px; left:200px;
+}
+
+/* reports */
+
+
+#reports_load_payments {
+  position:absolute; top:60px; left:10px;
+}
+#reports_reset_payments {
+  position:absolute; top:60px; left:710px;
+}
+#reports_dates_from {
+  position:absolute; top:65px; left:180px;
+  font-size:9pt;
+  border: 1px solid green;
+}
+#reports_start_date {
+  position:absolute; top:65px; left:360px;
+}
+#reports_end_date {
+  position:absolute; top:65px; left:450px;
+}
+
+
+
+#reports_sort_title {
+  position:absolute; top:120px; left:30px;
+}
+#reports_date_button {
+  position:absolute; top:120px; left:150px;
+}
+
+#reports_name_button {
+  position:absolute; top:120px; left:290px;
+}
+#reports_export_button {
+  position:absolute; top:120px; left:570px;
+}
+#reports_payment_button {
+  position:absolute; top:120px; left:710px;
+}
+#reports_vendor_input {
+   position:absolute; top:190px; left:380px;
+}
+
+
+#reports_category_selection {
+  position:absolute; top:180px; left:750px;
+}
+#reports_range_title {
+  position:absolute; top:130px; left:30px;
+}
+
+
+#reports_search_start_date {
+  position:absolute; top:130px; left:150px;
+}
+#reports_search_end_date {
+  position:absolute; top:130px; left:350px;
+}
+
+#reports_hour_title  {
+  position:absolute; top:160px; left:30px;
+}
+
+
+#reports_from_hr_title {
+  position:absolute; top:160px; left:150px;
+}
+#reports_from_hr_input {
+  position:absolute; top:160px; left:200px;
+
+}
+#reports_from_hr_ampm {
+  position:absolute; top:160px; left:240px;
+  font-size:9pt;
+
+}
+#reports_to_hr_title {
+  position:absolute; top:160px; left:350px;
+}
+#reports_to_hr_input {
+  position:absolute; top:160px; left:380px;
+}
+#reports_to_hr_ampm {
+  position:absolute; top:160px; left:420px;
+  font-size:9pt;
+}
+#reports_days {
+  position:absolute; top:160px; left:530px;
+  font-size:9pt;
+}
+
+#reports_specific0 {
+   position:absolute; top:230px; left:10px;
+   font-size:9pt;
+}
+#reports_specific1 {
+   position:absolute; top:230px; left:80px;
+   font-size:9pt;
+}
+#reports_specific2 {
+   position:absolute; top:230px; left:180px;
+   font-size:9pt;
+}
+#reports_specific3 {
+   position:absolute; top:230px; left:250px;
+   font-size:9pt;
+}
+#reports_specific4 {
+   position:absolute; top:230px; left:350px;
+   font-size:9pt;
+}
+
+#reports_search_button_left {
+  position:absolute; top:190px; left:10px;
+}
+#reports_search_button_right {
+  position:absolute; top:190px; left:710px;
+}
+#reports_filter_name_input {
+  position:absolute; top:190px; left:155px;
+}
+#reports_filter_sku_input {
+  position:absolute; top:190px; left:350px;
+}
+
+#reports_commission {
+  position:absolute; top:40px; left:900px;
+  font-size:10pt;
+}
+#reports_sub_total {
+  position:absolute; top:70px; left:900px;
+  font-size:10pt;
+}
+
+#reports_less_commission {
+  position:absolute; top:100px; left:900px;
+  font-size:10pt;
+}
+#reports_final_total {
+  position:absolute; top:130px; left:900px;
+  width:150px;
+  font-size:10pt; font-weight:bold;
+}
+
+
+
+/* listing area title */
+#reports_title_date {
+  position:absolute; top:260px; left:10px;
+  font-size:9pt; font-weight:bold;
+  font-family:courier;
+}
+#reports_title_time {
+  position:absolute; top:260px; left:115px;
+  font-size:9pt; font-weight:bold;
+  font-family:courier;
+}
+#reports_title_product_name {
+  position:absolute; top:260px; left:200px;
+  font-size:9pt; font-weight:bold;
+  font-family:courier;
+}
+#reports_title_qty_price {
+  position:absolute; top:260px; left:650px;
+  font-size:9pt; font-weight:bold;
+  font-family:courier;
+}
+#reports_title_total {
+  position:absolute; top:260px; left:790px;
+  font-size:9pt; font-weight:bold;
+  font-family:courier;
+}
+
+#reports_title_category {
+  position:absolute; top:260px; left:860px;
+  font-size:9pt; font-weight:bold;
+  font-family:courier;
+}
+
+
+#reports_selection {
+  position:absolute; top:280px; left:1050px;
+    width:300px; height:800px; border: 1px solid black;
+    
+  overflow:auto;
+  background-color:white;
+}
+#reports_list {
+  position:absolute; top:280px; left:10px;
+  width:1000px; height:800px; border: 1px solid black;
+  overflow:auto;
+  background-color:white;
+}
+
+/* map_sku.php */
+
+#map_sku_title {
+   position:absolute; top:120px; left:10px;
+  font-size:10pt; font-weight:bold;
+}
+
+ 
+#map_sku_list {
+   position:absolute; top:150px; left:10px;
+  width:500px; height:800px; border: 1px solid black;
+  overflow:auto;
+  background-color:white;
+}
+
+/* new_mapping.php */
+#new_mapping_from_label {
+  position:absolute; top:130px; left:200px;
+}
+#new_mapping_from_input {
+  position:absolute; top:130px; left:300px;
+}
+#new_mapping_to_label {
+  position:absolute; top:160px; left:200px;
+}
+#new_mapping_to_input {
+  position:absolute; top:160px; left:300px;
+}

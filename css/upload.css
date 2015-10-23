@@ -1,0 +1,12 @@
+body { 
+        font-family:Lucida Grande; margin:0; padding:0; border:0;  font-size:12pt;
+        background-color:#87CEFA;
+        font-size:12pt;
+}
+
+#message {
+  position: absolute; top: 10px; left:10px;
+}
+.display {
+  position: absolute; top: 40px; left:10px;
+}
